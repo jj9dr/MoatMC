@@ -111,7 +111,7 @@ def simulate_gross_margin_paths(
     if sims < 100:
         sims = 100
 
-    band_width_pp : float = 5.0
+    band =  band_width_pp /100.0
     lo_band = start - band
     hi_band = start + band
 
